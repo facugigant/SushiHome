@@ -1,0 +1,88 @@
+// Responsive PC
+@media only screen and (min-width: 1080px) {
+  main {
+    background: black;
+    margin-top: 75px;
+    .contactanos {
+      margin-top: 250px;
+    }
+  }
+  .contactanos {
+    color: white;
+    border: white solid 5px;
+    .btn {
+      color: white;
+      background: blue;
+      width: 100px;
+      margin-left: 45%;
+    }
+    #exampleInputtext {
+      width: 80%;
+      margin-left: 10%;
+      height: 100px;
+    }
+  }
+}
+// FIN Responsive PC
+
+* {
+  text-align: center;
+}
+aside {
+  color: white;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background: black;
+}
+.navbar {
+  background: white;
+}
+.nav-link {
+  color: white;
+}
+main {
+  //   background: black;
+}
+footer {
+  background: black;
+}
+// Textos
+p {
+  color: white;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+h4 {
+  color: white;
+}
+article {
+  color: white;
+}
+// Transformaciones
+aside {
+  height: 30px;
+  .redes {
+    letter-spacing: 50px;
+  }
+  %redes {
+    transform: scale(2.3);
+  }
+  .face:hover {
+    @extend %redes;
+  }
+  .insta:hover {
+    @extend %redes;
+  }
+  .whap:hover {
+    @extend %redes;
+  }
+}

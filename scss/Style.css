@@ -1,0 +1,88 @@
+@media only screen and (min-width: 1080px) {
+  main {
+    background: black;
+    margin-top: 75px;
+  }
+  main .contactanos {
+    margin-top: 250px;
+  }
+  .contactanos {
+    color: white;
+    border: white solid 5px;
+  }
+  .contactanos .btn {
+    color: white;
+    background: blue;
+    width: 100px;
+    margin-left: 45%;
+  }
+  .contactanos #exampleInputtext {
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+  }
+}
+
+* {
+  text-align: center;
+}
+
+aside {
+  color: white;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background: black;
+}
+
+.navbar {
+  background: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+footer {
+  background: black;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+article {
+  color: white;
+}
+
+aside {
+  height: 30px;
+}
+
+aside .redes {
+  letter-spacing: 50px;
+}
+
+aside .face:hover, aside .insta:hover, aside .whap:hover {
+  -webkit-transform: scale(2.3);
+          transform: scale(2.3);
+}
+/*# sourceMappingURL=Style.css.map */
