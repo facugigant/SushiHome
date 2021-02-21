@@ -30,7 +30,7 @@
     <meta name="author" content="Gigante Facundo">
     <meta property="og:locale" content="Es_es">
     <meta property="og:type" content="Take Away">
-    <meta property="og:description" content="Sushi y comida oriental">
+    <meta property="og:description" content="SushiHome comida oriental / Servicio de Delivery 4432-5394">
     <meta property="og:url" content="">
     <meta property="og:image" content="#">
 
@@ -49,35 +49,37 @@
         <aside>
             <div class="container-fluid fixed-top">
                 <div class="row">
-                    <div class="col-md-4 telefono" style="font-size: 20px;">
-                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    <div class="col-md-4 telefono">
+                        <p><svg xmlns="http://www.w3.org/2000/svg" class="icontel" fill="currentColor"
                                 class="bi bi-telephone-forward" viewBox="0 0 16 16">
                                 <path
                                     d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z" />
                             </svg> 4432-5394</p>
                     </div>
                     <div class="col-md-8 redes">
-                        <a href="https://www.facebook.com"> <img src="img/redes/facebook.png" alt="" class="redes"></a>
-                        <a href="https://www.facebook.com"> <img src="img/redes/instagram.png" alt="" class="redes"></a>
-                        <a href="https://www.facebook.com"> <img src="img/redes/whatsapp.png" alt="" class="redes"></a>
+                        <a href="https://www.facebook.com"> <img src="img/redes/facebook.png" alt="Facebook"
+                                class="face " style="height: 15px; "></a>
+                        <a href="https://www.facebook.com"> <img src="img/redes/instagram.png" alt="Instagram"
+                                class="insta " style="height: 15px; "></a>
+                        <a href="https://www.facebook.com"> <img src="img/redes/whatsapp.png" alt="whatsapp "
+                                class="whap " style="height: 15px; "></a>
                     </div>
                 </div>
         </aside>
         <div class="container-fluid navbar">
 
             <nav class=" navbar navbar-expand-lg navbar-light">
-                <img src="img/pandita.svg" alt="" height="50px">
-                <!-- <a href="index.html"> <img src="img/pandita.svg" alt="" style="height: 50px;"></a> -->
-                <a class="navbar-brand" href="index.html" alt=""
-                    style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 23px;">SUSHI HOUSE</a>
+                <img class=" pandita" src="img/pandita.svg" alt="">
+                <a class="navbar-brand" id="navtitulo" href="index.html" alt=""
+                    style="font-family: Verdana, Geneva, Tahoma, sans-serif;">SUSHI HOUSE</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"
-                        style="margin-left: 300px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 25px; color: black;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegacion"
+                        style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
                         <li class="nav-item">
                             <a class="nav-link menunav" href="cartacompleta.html">CARTA /
                                 MENU</a>
@@ -102,13 +104,12 @@
         </nav>
 
     </header>
-
-
-
     <!-- FIN NAVEGACION / MENU -->
+
+    <!-- Comienzo MAIN -->
     <main>
         <!-- Comienzo de carrusel -->
-        <div class="container-fluid">
+        <div class="container-fluid carrusel">
             <div class="row">
                 <div class="col-md-12">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -125,7 +126,6 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2000">
                                 <img src="img/Carrusel/sushi3.jpg" alt="" class="d-block w-100">
-                                <!-- <img src="/img/Carrusel/sushi3.jpg" class="d-block w-100" alt="..."> -->
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>TAKE AWAY</h5>
                                     <a href="cartacompleta.html"> <button type="button "
@@ -183,7 +183,7 @@
         <div class="pedido pedidos container">
 
             <!-- Imagen logo quienes somos -->
-            <div class="container-fluid" style="text-align: center;">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <img src="img/redes/logo.png" alt="Restaurante de Sushi">
@@ -207,6 +207,16 @@
 
                             <p>Telefono : 4256-2433 </p>
                             <p>Whatsapp : 15-3256-8562</p>
+                            <a href="#contactanos" style="color: white;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                    fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+
+                                Encontranos en Google Maps
+                            </a>
 
                         </div>
 
@@ -223,11 +233,6 @@
                         </div>
                     </div>
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
                 <a href="" id="contactanos"></a>
                 <div class="container-fluid" style="color: white;">
                     <div class="row">
@@ -264,7 +269,7 @@
                                 <div class="checkbox">
 
                                     <label>
-                                        <input type="checkbox" /> Acepto Terminos y Condiciones
+                                        <input type="checkbox" /> Acepto <a href=""> <u>Terminos y Condiciones </u></a>
                                     </label>
                                 </div>
                                 <button type="submit" class="btn btn-primary">
@@ -276,7 +281,7 @@
                         <div class="col-md-6">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.44366929015!2d-58.503337949736114!3d-34.61566245898787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1613622581112!5m2!1ses!2sar"
-                                width="700" height="550" frameborder="0" style="border:0;" allowfullscreen=""
+                                class="googlemap" frameborder="0" style="border:0;" allowfullscreen=""
                                 aria-hidden="false" tabindex="0"></iframe>
                             <P><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-geo-alt" viewBox="0 0 16 16">
@@ -294,11 +299,6 @@
 
     </main>
 </body>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <!-- Comienzo de Footer -->
 <a href="" id="footer"></a>
@@ -344,6 +344,7 @@
         </div>
 
     </div>
+    <!-- Final del Footer -->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
