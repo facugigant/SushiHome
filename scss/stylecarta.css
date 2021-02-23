@@ -1,4 +1,24 @@
 @media only screen and (min-width: 1920px) {
+  .cartaimagenes1 {
+    height: 1200px;
+    width: 1200px;
+  }
+  .cartaimagenes2 {
+    height: 1200px;
+    width: 1200px;
+  }
+  .cartaimagenes3 {
+    height: 1200px;
+    width: 1200px;
+  }
+  .cartaimagenes4 {
+    height: 1200px;
+    width: 1200px;
+  }
+  .cartaimagenes5 {
+    height: 1200px;
+    width: 1200px;
+  }
   .googlemap {
     width: 700px;
     height: 550px;
@@ -31,6 +51,26 @@
 }
 
 @media only screen and (max-width: 1080px) {
+  .cartaimagenes1 {
+    height: 1200px;
+    width: 1000px;
+  }
+  .cartaimagenes2 {
+    height: 1200px;
+    width: 1000px;
+  }
+  .cartaimagenes3 {
+    height: 1200px;
+    width: 1000px;
+  }
+  .cartaimagenes4 {
+    height: 1200px;
+    width: 1000px;
+  }
+  .cartaimagenes5 {
+    height: 1200px;
+    width: 1000px;
+  }
   .googlemap {
     margin-top: 15%;
     width: 500px;
@@ -64,6 +104,26 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .cartaimagenes1 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes2 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes3 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes4 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes5 {
+    height: 1200px;
+    width: 700px;
+  }
   .googlemap {
     width: 380px;
     height: 490px;
@@ -75,6 +135,26 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .cartaimagenes1 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes2 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes3 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes4 {
+    height: 1200px;
+    width: 700px;
+  }
+  .cartaimagenes5 {
+    height: 1200px;
+    width: 700px;
+  }
   .googlemap {
     width: 350px;
     height: 490px;
@@ -108,6 +188,26 @@
 }
 
 @media only screen and (max-width: 420px) {
+  .cartaimagenes1 {
+    height: 1200px;
+    width: 400px;
+  }
+  .cartaimagenes2 {
+    height: 1200px;
+    width: 400px;
+  }
+  .cartaimagenes3 {
+    height: 1200px;
+    width: 400px;
+  }
+  .cartaimagenes4 {
+    height: 1200px;
+    width: 400px;
+  }
+  .cartaimagenes5 {
+    height: 1200px;
+    width: 400px;
+  }
   .redes {
     margin-left: 35%;
     margin-top: -10%;
@@ -188,4 +288,4 @@ aside .face:hover, aside .insta:hover, aside .whap:hover {
   -webkit-transform: scale(2.3);
           transform: scale(2.3);
 }
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=stylecarta.css.map */

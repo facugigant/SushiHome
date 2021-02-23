@@ -1,32 +1,145 @@
-// Responsive PC
-@media only screen and (min-width: 1080px) {
-  main {
-    background: black;
-    margin-top: 75px;
-    .contactanos {
-      margin-top: 250px;
-    }
+// Responsive PC 1920p x 1080p 
+@media only screen and (min-width: 1920px) {
+  .googlemap{
+    width: 700px;
+    height: 550px;
+
   }
-  .contactanos {
-    color: white;
-    border: white solid 5px;
-    .btn {
-      color: white;
-      background: blue;
-      width: 100px;
-      margin-left: 45%;
-    }
-    #exampleInputtext {
-      width: 80%;
-      margin-left: 10%;
-      height: 100px;
+.menunav{ 
+  margin-left: 100px;
+}
+.navbar{
+  font-size: 35px;
+  }
+
+  .nav-link:hover{
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    color: red;
+  }
+  .pandita{
+height: 45px;
+  }
+  body{
+    background: black;
+  }
+  .telefono{ 
+    font-size: 125%;
+    .icontel{
+      margin-top: -3px;
+      width: 16px;
+    height: 16px;
+    margin-right: 5px;
     }
   }
 }
-// FIN Responsive PC
+// Responsive PC 1080p 
+@media only screen and (max-width: 1080px) {
+  .googlemap{
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+
+  }
+  .menunav{ 
+    margin-left: 5px;
+  }
+  .navbar{
+    font-size: 25px;
+    }
+  
+    .nav-link:hover{
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      color: red;
+    }
+    .pandita{
+  height: 35px;
+    }
+    body{
+      background: black;
+    }
+    .telefono{ 
+      font-size: 125%;
+      .icontel{
+        margin-top: -3px;
+        width: 16px;
+      height: 16px;
+      margin-right: 5px;
+      }
+    }
+  }
+
+ 
+// Responsive Ipad kindle 800p
+    @media only screen and (max-width: 800px) {
+      .googlemap{
+        width: 380px;
+        height: 490px;
+    
+      }
+      .telefono{ 
+        margin-left: -100px;
+        font-size: 150%;}
+      }
+  // Responsive Ipad
+  @media only screen and (max-width: 768px) {
+    .googlemap{
+      width: 350px;
+      height: 490px;
+  
+    }
+    .menunav{ 
+      margin-left: 5px;
+    }
+    .navbar{
+      font-size: 25px;
+      }
+    
+      .nav-link:hover{
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        color: red;
+      }
+      .pandita{
+    height: 35px;
+      }
+      body{
+        background: black;
+      }
+      .telefono{ 
+        margin-left: -100px;
+        font-size: 125%;
+        .icontel{
+          margin-top: -3px;
+          width: 16px;
+        height: 16px;
+        margin-right: 5px;
+        }
+      }
+    }
+      // Responsive Celular
+    @media only screen and (max-width: 420px) {
+      .carrusel{
+
+    }
+      .redes {
+        margin-left: 35%;
+        margin-top: -10%;
+      }
+     
+      .telefono{ 
+        margin-left: -150px;
+        font-size: 100%;
+      }
+    }
+// FIN RESPONSIVE
+
+
+.carrusel{ 
+  margin: 0%;
+padding: 0%;}
 
 * {
   text-align: center;
+
 }
 aside {
   color: white;
@@ -34,7 +147,7 @@ aside {
 body {
   margin: 0%;
   padding: 0%;
-  background: black;
+  // background: black;
 }
 .navbar {
   background: white;
@@ -42,9 +155,7 @@ body {
 .nav-link {
   color: white;
 }
-main {
-  //   background: black;
-}
+
 footer {
   background: black;
 }
@@ -68,10 +179,13 @@ article {
   color: white;
 }
 // Transformaciones
+aside{
+  height: 30px;
+}
 aside {
   height: 30px;
   .redes {
-    letter-spacing: 50px;
+    letter-spacing: 15px;
   }
   %redes {
     transform: scale(2.3);
